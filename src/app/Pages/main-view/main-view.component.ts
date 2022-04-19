@@ -14,7 +14,7 @@ export class MainViewComponent implements OnInit {
 
   constructor() { }
 
-  board: Board = new Board('Organizer', [
+  board: Board = new Board('My to do list', [
     new Column('Ideas', [
       "Some random idea",
       "This is another idea",
